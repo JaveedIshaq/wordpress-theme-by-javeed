@@ -1,0 +1,138 @@
+/*-----------------------------------------------------------------------------------
+
+Theme Name:mytheme
+Theme URI:http://javeedishaq.co
+Description:Karma is a Responsive Wordpress Theme with a multitude of amazing CMS features.
+Author:TrueThemes
+Author URI:http://www.truethemes.net
+Version:4.0.2
+License:GNU General Public License
+License URI:license.txt
+Tags:TrueThemes, Responsive, HTML5, Clean, Modern, Corporate, Business
+
+-------------------------------------------------------------------------------------
+
+*/
+
+body{
+	/*background: url('images/bg2.jpg');*/
+	background-color: #A7C5F7;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 980px;
+	ck;
+	margin: auto;
+}
+
+
+#body_content{
+clear: both;
+
+}
+.post_box{
+	width: 700px;
+	height: auto;
+	border: 1px solid #ccc;
+	margin: 15px auto;
+	border-radius: 5px; 
+}
+.post_title{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.post_title h2 a{
+ text-decoration: none;
+ color: #011A41;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.post_thumb{
+	width: 250px;
+	height: auto;
+	margin: 10px;
+}
+.post_thumb img{
+	float: left;
+	border:1px solid;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.entry{
+	float: left;
+	width: 100%;
+
+	clear: both;
+	display: block;
+	margin: 10px auto;
+}
+
+
+#wrapper #header{
+border: 1px solid #fff;
+margin-top: 34px;
+height: 170px;	
+
+}
+#wrapper #header h2{
+color: #011A41;
+margin-top: 30px;
+margin-left: 10px;
+
+}
+#wrapper #header h4{
+color: #011A41;
+margin-top: 20px;
+margin-left: 10px;
+
+}
+#wrapper #header #menu{
+float: left;
+width: 100%;
+margin-top: 35px;
+
+}
+#wrapper #header #menu ul{
+list-style: none;
+}
+
+#wrapper #header #menu ul li{
+float: left;
+height: 37px;
+line-height: 37px;
+padding-left: 20px;
+padding-right: 20px;
+}
+#wrapper #header #menu ul li a{
+text-decoration:none;
+color: #333;
+}
+
+#wrapper #header #menu ul li a:hover{
+text-decoration:underline;
+color: #273746;
+
+}
+
+#wrapper #footer{
+clear: both;
+width: 100%;
+text-align: center;
+background: #0e5198;
+color: #fff;
+height: 40px;
+line-height: 40px;
+}
